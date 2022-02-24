@@ -108,7 +108,7 @@ class MessagesViewModel(
         if(_otherUserStatus.value == false){
             viewModelScope.launch(Dispatchers.IO) {
                 try {
-                    Notification.sendMessageNotification(userData.user.token!!,currentUser.name!!,app.resources,msg,requireView,userData.user.id!!, userData.chat.mixId!!)
+                    Notification.sendMessageNotification(userData.user.token!!,currentUser.name!!,app.resources,msg,requireView,User.getCurrentUser()!!.uid, userData.chat.mixId!!)
                 }catch (e:Exception){
                     PopUpMsg.fireBaseError(requireView,e)
                 }

@@ -15,6 +15,7 @@ import android.content.Intent
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.chausic.R
 import com.example.chausic.view.util.URIPathHelper
+import com.github.dhaval2404.imagepicker.ImagePicker
 
 
 class ProfileFragment : Fragment() {
@@ -45,13 +46,12 @@ class ProfileFragment : Fragment() {
         binding.uploadImage.setOnClickListener {
            PopUpMsg.checkPermissions(this){ upload ->
                if(upload){
-                   val intent = Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
-                   intent.type = "image/*"
-                   intent.putExtra("crop", "true")
-                   intent.putExtra("aspectX", 1)
-                   intent.putExtra("aspectY", 1)
-                   intent.putExtra("return-data", true)
-                   resultLauncher.launch(intent)
+                   ImagePicker.with(this.requireActivity())
+                       .galleryOnly()
+                       .crop()
+                       .compress(1024)
+                       .maxResultSize(1080, 1080)
+                       .createIntent {  resultLauncher.launch(it) }
                }
            }
         }
