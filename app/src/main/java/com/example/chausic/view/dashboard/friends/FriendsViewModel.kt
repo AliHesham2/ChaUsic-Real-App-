@@ -64,10 +64,12 @@ class FriendsViewModel(private val app:Application):AndroidViewModel(app) {
         }
     }
     private fun removeOldFriend(requests: AcceptFriend) {
-        val index = _data.value!!.indexOfFirst { user -> user.chat.mixId == requests.mixID }
-        if (index != -1){
-            _data.value!!.removeAt(index)
-            _data.value = _data.value
+        if (_data.value != null && !_data.value.isNullOrEmpty()) {
+            val index = _data.value!!.indexOfFirst { user -> user.chat.mixId == requests.mixID }
+            if (index != -1) {
+                _data.value!!.removeAt(index)
+                _data.value = _data.value
+            }
         }
     }
 
@@ -80,10 +82,12 @@ class FriendsViewModel(private val app:Application):AndroidViewModel(app) {
 
     // < ----------------------------------------------------------------- Friend Data Section ----------------------------------------------------------- >
     private fun updateFriendData(userChangedData: UserData) {
-        val index = _data.value!!.indexOfFirst { user -> user.user.id == userChangedData.id }
-        if (index != -1){
-            _data.value!![index].user = userChangedData
-            _data.value = _data.value
+        if (_data.value != null && !_data.value.isNullOrEmpty()) {
+            val index = _data.value!!.indexOfFirst { user -> user.user.id == userChangedData.id }
+            if (index != -1) {
+                _data.value!![index].user = userChangedData
+                _data.value = _data.value
+            }
         }
     }
     // < ----------------------------------------------------------------- End  -------------------------------------------------------------------------- >
