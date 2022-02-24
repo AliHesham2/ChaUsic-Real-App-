@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "880804447446",
+    "project_id": "chausic-9f0a1",
+    "storage_bucket": "chausic-9f0a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880804447446:android:767a7bb7c86403a06d3577",
+        "android_client_info": {
+          "package_name": "com.example.chausic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880804447446-mb7frgena6iuboaucbfi49jehr8icq8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvzN-Bg7CVvBtSShdEkBX8kTOAAEzW2qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880804447446-mb7frgena6iuboaucbfi49jehr8icq8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

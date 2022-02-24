@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/outline_person_add_24"
+        android:title="@string/add_friend"
+        android:contentDescription="@string/topBar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/request"
+        android:title="@string/friend_request"
+        android:contentDescription="@string/topBar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:contentDescription="@string/topBar"
+        app:showAsAction="never" />
+</menu>

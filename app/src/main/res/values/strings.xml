@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">ChaUsiC</string>
+
+    <!-- FireBase Errors-->
+    <string name="error_login_custom_token">The custom token format is incorrect. Please check the documentation.</string>
+    <string name="error_login_custom_token_mismatch">The custom token corresponds to a different audience.</string>
+    <string name="error_login_credential_malformed_or_expired">The supplied auth credential is malformed or has expired.</string>
+    <string name="error_login_invalid_email">Invalid Email.</string>
+    <string name="error_login_wrong_password">The password is invalid.</string>
+    <string name="error_login_user_mismatch">The supplied credentials do not correspond to the previously signed in user.</string>
+    <string name="error_login_requires_recent_login">This operation is sensitive and requires recent authentication. Log in again before retrying this request.</string>
+    <string name="error_login_accounts_exits_with_different_credential">An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address.</string>
+    <string name="error_login_email_already_in_use">The email address is already in use by another account.</string>
+    <string name="error_login_credential_already_in_use">This credential is already associated with a different user account.</string>
+    <string name="error_login_user_disabled">The user account has been disabled by an administrator.</string>
+    <string name="error_login_user_not_found">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="error_login_operation_not_allowed">This operation is not allowed. You must enable this service in the console.</string>
+    <string name="error_login_password_is_weak">The given password is invalid.</string>
+    <string name="error_login_user_token_expired">The user\'s credential is no longer valid. The user must sign in again</string>
+    <string name="error_login_invalid_user_token">The user\'s credential is no longer valid. The user must sign in again.</string>
+    <!-- END-->
+
+    <!-- Tabs-->
+    <string name="Chats">Chats</string>
+    <string name="Friends">Friends</string>
+    <string name="Profile">Profile</string>
+    <!-- END-->
+
+    <!-- Displayed Errors-->
+    <string name="NAME_ERROR">Please entre your name</string>
+    <string name="NO_DATA">Please fill all fields!</string>
+    <string name="NO_NAME">Enter full name please</string>
+    <string name="NO_INTERNET">Network Connection Error</string>
+    <string name="NO_EMAIL">Enter email please</string>
+    <string name="NO_PASSWORD">Enter password please</string>
+    <string name="INVALID_NAME">At least 3 characters</string>
+    <string name="INVALID_EMAIL_FORM">Invalid email</string>
+    <string name="INVALID_PASSWORD">At least 8 characters</string>
+    <string name="AUTH_FAIL">Some thing went wrong please try again.</string>
+    <string name="DENIED">You have denied Storage permission. Please allow it.</string>
+    <string name="ENABLE_GALLERY">Please Enable  Access Gallery Permissions.</string>
+    <string name="FAILED_UPLOAD_IMG">Failed to upload image!</string>
+    <string name="SAME_USER_ID">Same User ID</string>
+    <string name="SAME">Please Select New Theme or Press Back</string>
+    <string name="NO_tHEME">Please choose theme or press back</string>
+    <!-- END-->
+
+    <!-- Alert Dialogue -->
+    <string name="ARE_YOU_SURE">Do You Want To Remove</string>
+    <string name="ARE_YOU_SURE_CHAT">Do You Want To Remove This Chat</string>
+    <!-- END-->
+
+    <!-- Toasts -->
+    <string name="REQUEST_SENT">Request Sent</string>
+    <string name="USER_NOT_FOUND">User Not Found </string>
+    <string name="MUSIC_PLAYING">Loading..</string>
+    <string name="MUSIC_NOT_FOUND">Not Found</string>
+    <string name="WRONG_URL">Wrong Url</string>
+    <string name="PAUSED">Paused..</string>
+    <string name="RESUME">Play..</string>
+    <string name="STOP">Stop..</string>
+    <string name="NO_MUSIC">No Music Found</string>
+    <string name="RELEASE_CURRENT">Please "/s" Current Music First</string>
+    <string name="WRONG">Something went wrong</string>
+    <!-- END-->
+
+    <!-- Binding Views Data -->
+    <string name="welcome">Welcome</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgotten_password">Forgotten Password ?</string>
+    <string name="picture">picture</string>
+    <string name="name">Name</string>
+    <string name="bio">Bio</string>
+    <string name="id">ID: </string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="COPIED">Copied</string>
+    <string name="NO_COPIED">No Text To Copy</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="what_s_on_your_mind">What`s on your mind</string>
+    <string name="friend_request">Friend Request</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="topBar">topBar</string>
+    <string name="logout">Logout</string>
+    <string name="enter_user_id">Enter User ID</string>
+    <string name="add">ADD</string>
+    <string name="just_image">just_image</string>
+    <string name="no_requests">No Requests</string>
+    <string name="no_friends_yet">No Friends yet</string>
+    <string name="DATA_ADD">add</string>
+    <string name="DATA_LOADING">loading</string>
+    <string name="DATA_REMOVED">remove</string>
+    <string name="DATA_CHANGED">change</string>
+    <string name="DATA_NOT_LOADED">noData</string>
+    <string name="DATA_CHAT">toChat</string>
+    <string name="DATA_REQUEST">toRequests</string>
+    <string name="DATA_USERID">userID</string>
+    <string name="DATA_MIXID">mixID</string>
+    <!-- END-->
+
+
+    <!-- Notification-->
+    <string name="CHANNEL_NAME">Chausic</string>
+    <string name="CHANNEL_ID">fcm_default_channel</string>
+    <string name="NOTIFICATION_NAME">name</string>
+    <string name="NOTIFICATION_TYPE">type</string>
+    <string name="NOTIFICATION_FOREGROUND">ForeGround</string>
+    <string name="NOTIFICATION_MSG">msg</string>
+    <string name="NOTIFICATION_Request">Request</string>
+    <string name="NEW_MESSAGE">New Message</string>
+    <string name="NEW_REQUEST">New Friend Request</string>
+    <string name="REQUEST_BODY">Want to add you as friend</string>
+    <!-- END-->
+
+    <!-- Current User Preference Key -->
+    <string name="CURRENT_SAVED_AT">_Current_</string>
+
+    <!-- ViewModelFactoryError -->
+    <string name="UN_KNOWN_CLASS">Unknown ViewModel class</string>
+    <!-- END-->
+
+    <!-- DB Child Attributes Name-->
+    <string name="LAST_MSG">lastMsg</string>
+    <string name="pending">pending</string>
+    <string name="accepted">accepted</string>
+    <string name="FRIENDS">Friends</string>
+    <string name="FRIENDS_REQUESTS">FriendRequest</string>
+    <string name="MIX_ID"> mixID</string>
+    <string name="IF_ONLINE">IfOnline</string>
+    <string name="IF_PLAYED">playedMusic</string>
+    <string name="SEEN">seen</string>
+    <string name="USERS">Users</string>
+    <string name="ONLINE">online</string>
+    <string name="TYPING">typing</string>
+    <string name="CHATS">Chats</string>
+    <string name="CHATS_List">chatList</string>
+    <string name="STATUS">status</string>
+    <string name="MUSIC">Musics</string>
+    <string name="UPLOADS">Uploads</string>
+    <string name="NAME">name</string>
+    <string name="BIO">bio</string>
+    <string name="IMG">img</string>
+    <string name="TOKEN">token</string>
+    <string name="setting">Setting</string>
+    <string name="enter_text">Type a message....</string>
+    <string name="add_some_friends_by_clicking_on_your_id_in_profile_and_copy_it">Add Some Friends By clicking on your id in profile and copy it</string>
+    <string name="online">online</string>
+    <string name="typing">Typing…</string>
+    <string name="THEMES">Themes</string>
+    <string name="THEME_ID">themeID</string>
+    <string name="done">done</string>
+    <!-- END-->
+
+</resources>
